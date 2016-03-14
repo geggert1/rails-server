@@ -4,6 +4,7 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
+# Ian was ere.
 Bundler.require(*Rails.groups)
 
 module ClockServer
