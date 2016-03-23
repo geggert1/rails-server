@@ -4,12 +4,10 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
-# Ian was ere. So was Gazza! Take that! piargh!
 Bundler.require(*Rails.groups)
 
-module ClockServer
+module Blog
   class Application < Rails::Application
-    config.api_only = true
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
